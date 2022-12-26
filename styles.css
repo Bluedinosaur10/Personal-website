@@ -5,17 +5,19 @@
     height: 100vh;
 }
 
-.middle-container{
+.middle-container {
     width: 50%;
     line-height: 2;
-    margin: 100px auto 100px auto ;
+    margin: 100px auto 100px auto;
+    min-width: 380px;
 }
 
-.bottom-container{
+.bottom-container {
 
     text-align: right;
     margin-right: 100px;
 }
+
 .title {
     position: relative;
     margin-top: 250px;
@@ -23,9 +25,9 @@
     z-index: 104;
 }
 
-.second-title{
+.second-title {
     margin-top: 30px;
-    position:relative;
+    position: relative;
     z-index: 104;
 }
 
@@ -55,7 +57,7 @@ body {
     bottom: 1px;
     left: 0px;
     z-index: 102;
-    margin:0px;
+    margin: 0px;
 }
 
 .clouds-bottom {
@@ -66,82 +68,105 @@ body {
     z-index: 101;
 }
 
-hr{
-margin: 100px auto;
+hr {
+    margin: 100px auto;
     border: 0;
     padding-top: 10px;
     color: #d0d0d5;
-    border-top: 1px solid rgba(0,0,0,.1);
+    border-top: 1px solid rgba(0, 0, 0, .1);
     box-shadow: inset 0 10px 10px -10px;
-    
+
 }
 
-.hello{
-    margin: 10% 20% 20px ;
+.hello {
+    margin: 10% 20% 20px;
     width: 60%;
 }
 
-.cinema{
-    margin: 10% 20% 20px ;
+.cinema {
+    margin: 10% 20% 20px;
     width: 60%;
 }
 
-.run{
-    margin: 10% 30% 20px ;
+.run {
+    margin: 10% 30% 20px;
     width: 40%;
 }
 
-.nz-whv{
-    margin: 10% 20% 20px ;
+.nz-whv {
+    margin: 10% 20% 20px;
     width: 60%;
 }
 
 .myButton {
-	box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
-	background-color:#ededed;
-	border-radius:6px;
-	border:1px solid #dcdcdc;
-	display:inline-block;
-	cursor:pointer;
-	color:#777777;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
-}
-.myButton:hover {
-	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
-	background-color:#dfdfdf;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+    background-color: #ededed;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #777777;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
 }
 
-a{
+.myButton:hover {
+    background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background-color: #dfdfdf;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+a {
     margin: 10px 10px;
     color: #2B3A55;
 }
 
-a:hover{
+a:hover {
     color: #F2E5E5;
 }
 
-.copyright{
-    color:#2B3A55;
+.copyright {
+    color: #2B3A55;
 }
 
-.cinema:hover{
+.cinema:hover {
     transform: scale(1.4);
 }
 
-.nz-whv:hover{
+.nz-whv:hover {
     transform: scale(1.4);
 }
 
-.run:hover{
+.run:hover {
     transform: scale(1.4);
+}
+
+.chinese {
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 300;
+    line-height: 2;
+}
+
+.chinese-title{
+    font-family: 'Noto Serif TC', serif;
+    font-weight:700;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Noto Serif TC', serif;
+    margin-bottom: 50px;
+}
+
+img{
+    margin-bottom: 80px;
 }
